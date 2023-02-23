@@ -27,3 +27,8 @@ To install Jupyter run jupyter from the system installation or a different conda
     1) conda install ipykernel                                    # install Python kernel in new conda env
     2) ipython kernel install --user --name=base-env-kernel       # configure Jupyter to use Python kernel
     3) conda install jupyter                                      # might be installed already in system 'apt install jupyter'
+
+You can add kernel for new enviroments this way (without install) after commands:
+
+    1)conda create -n env-name
+    2)conda actrivate env-name
